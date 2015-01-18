@@ -1,0 +1,23 @@
+#signup {
+  // background: $color-clouds;
+  margin-top: 10vh;
+
+  .content {
+    border: 1px solid $color-clouds;
+    // background: $color-white;
+    padding-bottom: 20px;
+    border-radius: 5px;
+
+    .title {
+      text-align: center;
+
+      .glyphicon {
+        font-size: 1.3em;
+      }
+    }
+
+    .submit {
+      margin-bottom: 15px;
+    }
+  }
+}

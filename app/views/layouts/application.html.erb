@@ -6,9 +6,10 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class='<%= "#{controller_name}_controller #{action_name}_action" %>'>
 
 <div class="container">
+  <%= flash_container(flash) %>
   <%= yield %>
 </div>
 
